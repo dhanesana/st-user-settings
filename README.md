@@ -2,4 +2,4 @@
 
 ## Contents
 
-This is my personal backup of my Sublime Text 2 User Settings.
+This is my personal backup of my Sublime Text 2 User Settings and Key Bindings.
