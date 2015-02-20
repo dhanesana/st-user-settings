@@ -6,21 +6,24 @@
     "keys": ["super+shift+r"], "command": "set_file_type",
     "args": {"syntax": "Packages/Ruby/Ruby.tmLanguage"}
   },
+// Credit: Jim Greenleaf
+// https://coderwall.com/p/rvekkq/vim-style-movement-and-more-in-sublime-text-3
   // Control + HJKL Vim Cursor Movement
-  {
-    "keys": ["ctrl+l"], "command": "move", "args":
-    {"by": "characters", "forward": true }
-  },
   {
     "keys": ["ctrl+h"], "command": "move", "args":
     {"by": "characters", "forward": false }
   },
   {
+    "keys": ["ctrl+j"], "command": "move", "args":
+    {"by": "lines", "forward": true }
+  },
+  {
     "keys": ["ctrl+k"], "command": "move", "args":
     {"by": "lines", "forward": false }
   },
-  { "keys": ["ctrl+j"], "command": "move", "args":
-  {"by": "lines", "forward": true }
+  {
+    "keys": ["ctrl+l"], "command": "move", "args":
+    {"by": "characters", "forward": true }
   },
   // Control + Meta + HJKL Vim Cursor Movement
   {
