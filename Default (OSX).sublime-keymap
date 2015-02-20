@@ -21,5 +21,22 @@
   },
   { "keys": ["ctrl+j"], "command": "move", "args":
   {"by": "lines", "forward": true }
+  },
+  // Control + Meta + HJKL Vim Cursor Movement
+  {
+    "keys": ["ctrl+super+h"], "command": "move", "args":
+    { "by": "characters", "forward": false, "extend": true }
+  },
+  {
+    "keys": ["ctrl+super+j"], "command": "move", "args":
+    { "by": "lines", "forward": true, "extend": true }
+  },
+  {
+    "keys": ["ctrl+super+k"], "command": "move", "args":
+    { "by": "lines", "forward": false, "extend": true }
+  },
+  {
+    "keys": ["ctrl+super+l"], "command": "move", "args":
+    { "by": "characters", "forward": true, "extend": true }
   }
 ]
