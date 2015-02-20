@@ -1,0 +1,25 @@
+[
+  // Rails ERB tags
+  { "keys": ["ctrl+shift+."], "command": "erb" },
+  // Change syntax to Ruby
+  {
+    "keys": ["super+shift+r"], "command": "set_file_type",
+    "args": {"syntax": "Packages/Ruby/Ruby.tmLanguage"}
+  },
+  // Control + HJKL Vim Cursor Movement
+  {
+    "keys": ["ctrl+l"], "command": "move", "args":
+    {"by": "characters", "forward": true }
+  },
+  {
+    "keys": ["ctrl+h"], "command": "move", "args":
+    {"by": "characters", "forward": false }
+  },
+  {
+    "keys": ["ctrl+k"], "command": "move", "args":
+    {"by": "lines", "forward": false }
+  },
+  { "keys": ["ctrl+j"], "command": "move", "args":
+  {"by": "lines", "forward": true }
+  }
+]
