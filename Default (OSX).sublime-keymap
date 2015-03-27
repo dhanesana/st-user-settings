@@ -30,16 +30,19 @@
     "keys": ["ctrl+super+h"], "command": "move", "args":
     { "by": "characters", "forward": false, "extend": true }
   },
-  {
-    "keys": ["ctrl+super+j"], "command": "move", "args":
-    { "by": "lines", "forward": true, "extend": true }
-  },
-  {
-    "keys": ["ctrl+super+k"], "command": "move", "args":
-    { "by": "lines", "forward": false, "extend": true }
-  },
+  // {
+  //   "keys": ["ctrl+super+j"], "command": "move", "args":
+  //   { "by": "lines", "forward": true, "extend": true }
+  // },
+  // {
+  //   "keys": ["ctrl+super+k"], "command": "move", "args":
+  //   { "by": "lines", "forward": false, "extend": true }
+  // },
   {
     "keys": ["ctrl+super+l"], "command": "move", "args":
     { "by": "characters", "forward": true, "extend": true }
-  }
+  },
+  // Control + Meta + JK: Move Lines Up/Down
+  { "keys": ["ctrl+super+j"], "command": "swap_line_down" },
+  { "keys": ["ctrl+super+k"], "command": "swap_line_up" }
 ]
