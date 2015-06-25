@@ -2,7 +2,7 @@
   "auto_complete_delay": 25,
   "bold_folder_labels": true,
   "caret_style": "blink",
-  "color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
+  "color_scheme": "Packages/Color Scheme - Default/Atom Dark.tmTheme",
   "file_exclude_patterns":
   [
     ".DS_Store",
@@ -24,8 +24,8 @@
     "*.idb",
     "*.class",
     "*.psd",
-    "*.db",
-    "*.pdf"
+    "*.pdf",
+    "*.db"
   ],
   "folder_exclude_patterns":
   [
@@ -44,7 +44,7 @@
     "log"
   ],
   "font_face": "Inconsolata",
-  "font_size": 14.0,
+  "font_size": 16.0,
   "highlight_line": true,
   "highlight_modified_tabs": true,
   "ignored_packages":
@@ -65,6 +65,7 @@
   "scroll_past_end": true,
   "shift_tab_unindent": true,
   "tab_size": 2,
+  "theme": "Fox.sublime-theme",
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
   "word_wrap": true
